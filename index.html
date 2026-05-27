@@ -366,7 +366,8 @@ function mkEv(bug){
   if(!evs.length && !adminMode) return '';
   let html='<div class="es">';
   evs.forEach(ev=>{
-    const f=`imagens/${ev}`;
+    // Se evidência já tem path (contém /), usar direto; senão adicionar prefixo imagens/
+    const f = ev.includes('/') ? ev : `imagens/${ev}`;
     const ext=ev.split('.').pop().toLowerCase();
     if(ext==='pdf') html+=`<div class="et" onclick="window.open('${f}','_blank')"><span style="font-size:1.3rem">📄</span></div>`;
     else if(ext==='mp4') html+=`<div class="et" onclick="window.open('${f}','_blank')"><span style="font-size:1.3rem">🎬</span></div>`;
@@ -474,7 +475,7 @@ function mkConv(bug){
       const lineRef=m.linha?`<span class="mlr">L${m.linha}</span>`:'';
       let att='';
       if(m.attachment){
-        const f='imagens/'+m.attachment;
+        const f = m.attachment.includes('/') ? m.attachment : ('imagens/'+m.attachment);
         const ext=(m.attachment.split('.').pop()||'').toLowerCase();
         if(ext==='pdf') att=`<span class="mat" onclick="event.stopPropagation();window.open('${f}','_blank')">📄</span>`;
         else if(ext==='mp4') att=`<span class="mat" onclick="event.stopPropagation();window.open('${f}','_blank')">🎬</span>`;
