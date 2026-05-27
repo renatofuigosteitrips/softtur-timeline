@@ -1,0 +1,87 @@
+{
+  "IMP-002": {
+    "status": "resolvido"
+  },
+  "IMP-003": {
+    "status": "resolvido"
+  },
+  "IMP-005": {
+    "status": "resolvido",
+    "observacao": "É importante que o vendedor tenha atenção na hora de adicionar a hospedagem. Aparece a data de check-in check-out."
+  },
+  "IMP-006": {
+    "status": "resolvido",
+    "observacao": "Não tem como tirar o ingresso anteriormente vinculado automaticamente. deve ser retirado item a item."
+  },
+  "IMP-007": {
+    "status": "resolvido",
+    "observacao": "Erro de cadastro .. na adição do combo deve estar seq 1 e 1 pois ambos são no mesmo dia"
+  },
+  "IMP-011": {
+    "status": "resolvido",
+    "observacao": "Sö falta cadastrar.. não é prioridade.. então vais ser feito aos poucos o cadastro."
+  },
+  "IMP-012": {
+    "status": "resolvido",
+    "observacao": "Resolvido por chamado - Coloca Manualmente"
+  },
+  "IMP-013": {
+    "status": "resolvido"
+  },
+  "IMP-014": {
+    "status": "resolvido"
+  },
+  "IMP-015": {
+    "status": "resolvido"
+  },
+  "IMP-017": {
+    "status": "resolvido"
+  },
+  "IMP-022": {
+    "status": "resolvido"
+  },
+  "IMP-025": {
+    "status": "resolvido"
+  },
+  "IMP-026": {
+    "status": "resolvido"
+  },
+  "IMP-027": {
+    "status": "resolvido"
+  },
+  "IMP-028": {
+    "status": "em-analise",
+    "observacao": "Aguardando validação do termo exclusivo para diferenciar"
+  },
+  "IMP-029": {
+    "status": "resolvido"
+  },
+  "IMP-030": {
+    "status": "resolvido"
+  },
+  "IMP-033": {
+    "status": "resolvido"
+  },
+  "IMP-019": {
+    "status": "resolvido"
+  },
+  "IMP-020": {
+    "status": "resolvido"
+  },
+  "IMP-021": {
+    "status": "resolvido"
+  },
+  "IMP-023": {
+    "status": "resolvido",
+    "observacao": "Enquanto nao é incluido nenhum item .. fica zerado mesmo"
+  },
+  "IMP-024": {
+    "status": "resolvido"
+  },
+  "IMP-004": {
+    "status": "resolvido"
+  },
+  "IMP-032": {
+    "status": "em-analise"
+  }
+}
