@@ -1,5 +1,8 @@
-.DS_Store
 *.bak
-dados-timeline.js.bak-*
-DEPLOY-RODADA-4.sh
+*.bak-*
+.DS_Store
 DEPLOY-GIT.sh
+DEPLOY-RODADA-4.sh
+MEMORIA.md
+dados-timeline.js.bak-*
+deploy-r5.command

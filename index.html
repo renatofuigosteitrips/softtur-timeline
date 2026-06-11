@@ -214,7 +214,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 
 <div class="hero">
   <h1>Timeline de Bugs — <span>Implantação SoftTur</span></h1>
-  <div class="sub">Fui Gostei Trips · 06–26 Mai 2026 · 78 Bugs · 46 Chamados Integrados · Análise Completa</div>
+  <div class="sub">Fui Gostei Trips · 06 Mai–10 Jun 2026 · 92 Bugs · 68 Chamados Integrados · Rodada 5</div>
   <div class="stats" id="stats"></div>
 </div>
 
@@ -321,7 +321,7 @@ const GN={IMP:'Implementação',COM:'Comissão',STR:'SoftTur Direto'};
 function esc(t){const d=document.createElement('div');d.textContent=t;return d.innerHTML}
 
 // All dates for timeline
-const ALL_DATES=['06/05','07/05','08/05','09/05','10/05','11/05','12/05','13/05','14/05','15/05','16/05','17/05','18/05','19/05','20/05','21/05','22/05','23/05','24/05','25/05','26/05'];
+const ALL_DATES=['06/05','07/05','08/05','09/05','10/05','11/05','12/05','13/05','14/05','15/05','16/05','17/05','18/05','19/05','20/05','21/05','22/05','23/05','24/05','25/05','26/05','27/05','28/05','29/05','30/05','31/05','01/06','02/06','03/06','04/06','05/06','06/06','07/06','08/06','09/06','10/06'];
 const DL={
   '06/05':'06 Mai · Terça','07/05':'07 Mai · Quarta','08/05':'08 Mai · Quinta',
   '09/05':'09 Mai · Sexta','10/05':'10 Mai · Sábado',
@@ -330,7 +330,22 @@ const DL={
   '16/05':'16 Mai · Sexta','17/05':'17 Mai · Sábado',
   '18/05':'18 Mai · Domingo','19/05':'19 Mai · Segunda','20/05':'20 Mai · Terça',
   '21/05':'21 Mai · Quarta','22/05':'22 Mai · Quinta','23/05':'23 Mai · Sexta',
-  '24/05':'24 Mai · Sábado','25/05':'25 Mai · Domingo','26/05':'26 Mai · Segunda'
+  '24/05':'24 Mai · Sábado','25/05':'25 Mai · Domingo','26/05':'26 Mai · Segunda',
+  '27/05':'27 Mai · Quarta',
+  '28/05':'28 Mai · Quinta',
+  '29/05':'29 Mai · Sexta',
+  '30/05':'30 Mai · Sábado',
+  '31/05':'31 Mai · Domingo',
+  '01/06':'01 Jun · Segunda',
+  '02/06':'02 Jun · Terça',
+  '03/06':'03 Jun · Quarta',
+  '04/06':'04 Jun · Quinta',
+  '05/06':'05 Jun · Sexta',
+  '06/06':'06 Jun · Sábado',
+  '07/06':'07 Jun · Domingo',
+  '08/06':'08 Jun · Segunda',
+  '09/06':'09 Jun · Terça',
+  '10/06':'10 Jun · Quarta'
 };
 function pd(d){const m=d.match(/(\d{2})(?:[-–]\d{2})?\/(\d{2})/);return m?m[1]+'/'+m[2]:'07/05'}
 
